@@ -245,7 +245,8 @@ codebase based on the established conventions and architecture, and it will typi
 any inconsistencies and redundancies that may have been introduced during implementation. Example prompts:
 
 ```text
-Refactor the codebase to ensure consistency with the established conventions and architecture.
+Refactor the codebase to ensure consistency with
+the established conventions and architecture.
 ```
 
 or
@@ -257,7 +258,8 @@ Identify duplicate or almost identical code and refactor it to honor the DRY pri
 or simply
 
 ```text
-Do you see any potential for refactoring? Please explain your reasoning and list them in order of importance.
+Do you see any potential for refactoring?
+Please explain your reasoning and list them in order of importance.
 ```
 
 ## More Details
