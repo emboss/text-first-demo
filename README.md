@@ -267,7 +267,7 @@ You can find more details in the [presentation](./text-first.make-ai-great-alrea
 
 Stay tuned for a more detailed write-up in my [blog](https://martinbosslet.dev/en/blog/) in the coming weeks
 and/or follow [klautcode@Mastodon](https://mastodon.social/@klautcode),
-[klautcode@BlueSky](https://bsky.app/profile/klautcode.bsky.social) or
+[klautcode@Bluesky](https://bsky.app/profile/klautcode.bsky.social) or
 [emboss@X](https://x.com/_emboss_) for updates.
 
 ## License
