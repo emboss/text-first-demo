@@ -199,12 +199,7 @@ We have everything we need and can now enter the `"Plan"` step and let the agent
 
 ```text
 Plan the initial implementation of the Todo API.
-
-Steps in implementation order.
 ```
-
-Actually, the second line is optional, but it encourages the LLM to produce the implementation plan in a logical order
-that can be followed step by step. If left out, LLMs have a tendency to group tasks by category (e.g. "First all controllers, then all services, then all tests") which is not how you would typically implement an API yourself.
 
 Since the plan itself is a valuable piece of documentation that can be referred to in the future, we can either ask the agent
 to persist it or simply copy and paste it ourselves, e.g. into a file such as `doc/implementation-plan.md`. This way, we have
