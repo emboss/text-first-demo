@@ -265,9 +265,6 @@ Please explain your reasoning and list them in order of importance.
 
 ## More Details
 
-You can find more details in the [presentation](./text-first.make-ai-great-already.pdf) I gave at
-[Gedoplan's Expertenkreis Java](https://www.gedoplan.de/expertenkreisjava) in April 2026.
-
 For a more detailed write-up, have a look at the article in my [blog](https://martinbosslet.dev/en/blog/2026/text-first/) and/or follow [klautcode@Mastodon](https://mastodon.social/@klautcode),
 [klautcode@Bluesky](https://bsky.app/profile/klautcode.bsky.social) or
 [emboss@X](https://x.com/_emboss_) for updates.
