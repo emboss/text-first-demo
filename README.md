@@ -1,5 +1,9 @@
 # Text-First: A sample ToDo REST API
 
+> Companion repo for the article
+> [Text-First: If It Can Be Text, It Should Be Text](https://martinbosslet.dev/en/blog/2026/text-first/).
+> Start on the `bare-repo` branch and compare your result with `implementation`.
+
 This repo serves as an example of my "Text-First" approach to AI-assisted software development.
 
 ## The Idea
