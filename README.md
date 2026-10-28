@@ -12,12 +12,23 @@ When planning to implement any non-trivial feature with AI, I typically follow a
 
 ```mermaid
 %%{init: {"themeCSS": ".edgePath .path, .flowchart-link { stroke: #c80 !important; } .arrowheadPath, marker path { fill: #c80 !important; stroke: #c80 !important; }"}}%%
-flowchart LR
-  discuss["1 Discuss"] --> design["2 Design"]
-  design --> plan["3 Plan"]
-  plan --> implement["4 Implement"]
-  implement --> test["5 Test"]
-  test --> refactor["6 Refactor"]
+%%{init: {"flowchart": {"subGraphTitleMargin": {"top": 12, "bottom": 24}}}}%%
+graph LR
+  subgraph before["Planning & Design"]
+    direction TB
+    discuss["1 Discuss"]:::node-strong --> design["2 Design"]:::node-strong --> plan["3 Plan"]:::node-strong
+  end
+  subgraph code["Coding & Maintenance"]
+    direction TB
+    implement["4 Implement"]:::node-soft --> test["5 Test"]:::node-soft
+    test --> refactor["6 Refactor"]:::node-soft
+    test -->|"Error"| implement
+  end
+  before --> code
+  %% Declared forward so the layout keeps Planning on the left; linkStyle then
+  %% drops the forward arrowhead. 6 = this link's position (0-based).
+  before <-.->|"next iteration"| code
+  linkStyle 6 marker-end:none
 
   classDef early fill:#1a1410,color:#ffb000,stroke:#ffb000;
   classDef late fill:#231c16,color:#ffb000,stroke:#ffb000;
