@@ -11,7 +11,22 @@ This repo serves as an example of my "Text-First" approach to AI-assisted softwa
 When planning to implement any non-trivial feature with AI, I typically follow a simple process:
 
 ```mermaid
-%%{init: {"themeCSS": ".edgePath .path, .flowchart-link { stroke: #c80 !important; } .arrowheadPath, marker path { fill: #c80 !important; stroke: #c80 !important; }"}}%%
+%% Pin every color to the Amber Mono palette so GitHub's light/dark theme defaults don't leak in.
+%%{init: {"theme": "base", "themeVariables": {
+  "darkMode": true,
+  "background": "#0d0a08",
+  "primaryColor": "#1a1410",
+  "primaryTextColor": "#ffb000",
+  "primaryBorderColor": "#ffb000",
+  "textColor": "#ffb000",
+  "nodeTextColor": "#ffb000",
+  "lineColor": "#c80",
+  "arrowheadColor": "#c80",
+  "clusterBkg": "#0d0a08",
+  "clusterBorder": "#c80",
+  "titleColor": "#fc0",
+  "edgeLabelBackground": "#0d0a08"
+}}}%%
 %%{init: {"flowchart": {"subGraphTitleMargin": {"top": 12, "bottom": 24}}}}%%
 graph LR
   subgraph before["Planning & Design"]
